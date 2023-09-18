@@ -5,9 +5,14 @@
 //  Created by Persephone on 16/09/2023.
 //
 
+// Include
 #include <iostream>
+/// #include "main.h"
 
-int main(int argc, const char * argv[]) {
+/// int add();
+
+
+int main() {
     
     std::cout << "Hello, World!\n";
     return 0;
