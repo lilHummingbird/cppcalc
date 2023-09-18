@@ -7,13 +7,13 @@
 #include <iostream>
 #include <list>
 
+#include "main.h"
+
 
 int input() {
 
-	std::list<int> l_input{
-		std::cin >> "Enter numbers, seperated by a space or using the enter key."
-	};
-	
+	int x;
+	std::cin >> x;
 
-	return 0;
+	return x;
 }
