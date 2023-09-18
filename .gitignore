@@ -52,3 +52,7 @@
 *.recipe
 *.lastbuildstate
 *.db
+unsuccessfulbuild
+*.ilk
+*.tlog
+

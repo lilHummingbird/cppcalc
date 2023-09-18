@@ -4,15 +4,15 @@
 //
 //  Created by Persephone on 18/09/2023.
 //
+#include <iostream>
+#include <list>
+
 #include "main.h"
 
-int input();
 
-int add(int x, int y) {
+int add(int x,int y) {
 
-	input(x, y);
-
-	int z{ x + y };
-
-	return z;
+	return x + y;
 }
+
+
