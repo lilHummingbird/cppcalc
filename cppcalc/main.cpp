@@ -19,8 +19,7 @@ void inputText() {
 int main() {
 start:
 
-    std::cout << "Please enter the number corresponding to what you want to do!\n" << "1. Add\n" << "2. Subtract\n" << "3. Multiply\n" << "4. Divide\n" << "5. Power\n" << "6. Square root\n"
-        << "7. Exit\n" << std::endl;
+    std::cout << "Please enter the number corresponding to what you want to do!\n" << "1. Add\n" << "2. Subtract\n" << "3. Multiply\n" << "4. Divide\n" << "5. Power\n" << "6. Square root\n" << "7. Exit\n" << std::endl;
 
     int x;
 
@@ -33,37 +32,37 @@ start:
         case 1:
 
             inputText();
-            std::cout << add(input(), input()) << std::endl;
+            std::cout << add(input(), input()) << "\n" << std::endl;
             
             goto start;
         case 2:
             
             inputText();
-            std::cout << subtract(input(), input()) << std::endl;
+            std::cout << subtract(input(), input()) << "\n" << std::endl;
             
             goto start;
         case 3:
             
             inputText();
-            std::cout << multiply(input(), input()) << std::endl;
+            std::cout << multiply(input(), input()) << "\n" << std::endl;
             
             goto start;
         case 4:
             
             inputText();
-            std::cout << divide(input(), input()) << std::endl;
+            std::cout << divide(input(), input()) << "\n" << std::endl;
             
             goto start;
         case 5:
             
             inputText();
-            std::cout << power(input(), input()) << std::endl;
+            std::cout << power(input(), input()) << "\n" << std::endl;
             
             goto start;
         case 6:
             
             inputText();
-            std::cout << sqre(input()) << std::endl;
+            std::cout << sqre(input()) << "\n" << std::endl;
             
             goto start;
         case 7:
@@ -72,7 +71,7 @@ start:
             
             break;
         default:
-            std::cout << "Invalid input" << std::endl;
+            std::cout << "Invalid input\n" << std::endl;
             
             goto start;
     }
