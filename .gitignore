@@ -36,3 +36,19 @@
 
 # Visual Studio
 *.sln
+*.sqlite
+*.vsidx
+*.opendb
+*.db-wal
+*.db-shm
+*.wsuo
+*.testlog
+*.manifest
+*.ipch
+*.json
+*.vcxproj
+*.filters
+*.user
+*.recipe
+*.lastbuildstate
+*.db
