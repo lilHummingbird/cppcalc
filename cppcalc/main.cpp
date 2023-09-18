@@ -19,8 +19,7 @@ void inputText() {
 int main() {
 start:
 
-    std::cout << "Please enter the number corresponding to what you want to do!\n" << "1. Add\n" << "2. Subtract\n" << "3. Multiply\n" << "4. Divide\n" << "5. Power\n" << "6. Square root\n"
-        << "7. Exit\n" << std::endl;
+    std::cout << "Please enter the number corresponding to what you want to do!\n" << "1. Add\n" << "2. Subtract\n" << "3. Multiply\n" << "4. Divide\n" << "5. Power\n" << "6. Square root\n" << "7. Exit\n" << std::endl;
 
     int x;
 

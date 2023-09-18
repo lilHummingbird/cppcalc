@@ -13,7 +13,8 @@
 int input() {
 
 	int x;
-	std::cin >> x;
+    std::cin >> x;
+    std::cout << std::endl;
 
 	return x;
 }
