@@ -33,3 +33,6 @@
 
 # XCode
 *.xcodeproj
+
+# Visual Studio
+*.sln
